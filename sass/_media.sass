@@ -1,0 +1,305 @@
+@media (max-width: 1200px)
+    .menu 
+        &_link
+            font-size: 13px
+        &_item
+            padding-right: 20px
+
+    .subheader
+        &_btn
+            width: 155px
+
+    .promo
+        h1
+            font-size: 50px
+
+    .reasons
+        &_block
+            align-items: flex-start
+        &_descr
+            width: 317px
+
+    .mobile
+        &_item
+            width: 305px
+            &_subtitle
+                font-size: 18px
+
+    .footer
+        &_menu
+            &_link
+                font-size: 18px
+        &_menu2
+            &_link
+                font-size: 14px
+    .icons
+        bottom: 20px
+
+    .icons2
+        bottom: 20px
+
+@media (max-width: 991px)
+    .menu 
+        padding: 13px 50px
+
+        &_link
+            font-size: 10px
+        &_item
+            padding-right: 14px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_text
+            font-size: 12px
+        &_number
+            font-size: 20px
+
+        
+    .promo
+        h1
+            font-size: 35px
+        h2 
+            font-size: 25px
+
+    .reasons
+        &_block
+            flex-direction: column
+            align-items: center
+        &_descr
+            margin-top: 10px
+            width: 317px
+
+    .title 
+        font-size: 32px
+    .subtitle 
+        display: block
+        margin: 0 auto
+        width: 70%
+
+@media (max-width: 767px)
+    .reasons
+        &_round
+            margin-right: 0
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: start
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            border-right: none
+            margin-top: 15px
+            width: 100%
+        &_link 
+            font-size: 20px
+            display: block
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            width: 100%
+            height: 2px
+            margin-top: 2px
+            background-color: white
+
+        &_active
+            span
+                margin-top: -2px
+                transition: 0.6s all
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(2)                
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(-45deg)
+
+    .xs-hidden
+        display: none
+    
+    .subheader
+        &_btn
+            margin-top: 10px
+            height: 30px
+            margin-left: 97px
+            
+            
+        &_number
+            margin-top: 7px
+            
+    .xs-visible
+        display: block
+
+    
+
+
+    .promo
+        h1
+            font-size: 30px
+
+    .footer
+        &_menu2_item
+            padding-right: 16px
+
+    .icons2
+        .icons_block
+            &_r a
+                left: 24px
+
+    .car
+        &_auto img
+            width: 100%
+            
+                    
+@media (max-width: 575px)
+    .subheader
+        height: 60px
+        &_logo
+            margin-top: 18px
+            img
+                width: 110%
+        &_text
+            display: none
+        &_btn
+            height: 23px
+            margin-left: 35px
+            font-size: 9px
+            width: 100px
+            margin-top: 1px
+        &_number
+            font-size: 14px
+
+
+    .promo
+        min-height: 400px
+        .text_descr
+            display: none
+        h1 
+            font-size: 30px
+            margin-top: 105px
+        h2 
+            font-size: 20px
+        .promo_btn
+            width: 210px
+            height: 50px
+            margin-bottom: 35px
+            font-size: 16px
+            margin-top: 80px
+
+
+
+    .reasons
+        padding: 23px 0 38px 0
+        .label
+            width: 110px
+            height: 27px
+            font-size: 11px
+        .title           
+            font-size: 16px
+            margin-top: 16px
+    .mobile
+        padding-top: 28px
+        .title           
+            font-size: 16px
+            margin-top: 16px
+        .subtitle
+            width: 85%
+    
+    .car
+        min-height: 393px
+        background: none
+        background-color: black
+        padding: 27px 0px 31px 0px
+
+
+        &_title
+            display: none
+        &_subtitle
+            display: none
+        &_auto img
+            width: 300px
+            height: 190px
+        &_text
+            color: white
+            width: 280px
+            margin: 0 auto
+    .reasons
+        padding-bottom: 0
+        &_block
+            margin-top: 24px
+        &_round
+            width: 100px
+            height: 100px
+        &_descr
+            min-height: 160px
+            width: 100%
+        &:nth-child(5)
+            margin-top: 10px
+            
+
+    .map
+        min-height: 360px
+        &_title
+            font-size: 18px
+        &_footer_text a
+            font-size: 15px
+            margin-top: 211px
+
+    .conditions
+        padding-top: 28px
+        .title
+            font-size: 16px
+        &_header
+            font-size: 16px
+        &_list
+            font-size: 14px
+
+    .footer
+        &_menu
+            flex-direction: column
+            align-items: center
+            &_item
+                margin-top: 4px
+                &:nth-child(1)
+                    margin-top: 25px
+
+
+        &_menu2
+            flex-wrap: wrap
+            &_item
+                padding-right: 25px
+  
+        
+    .icons
+        bottom: -35px
+        left: 50%
+        transform: translateX(-50%)
+    .icons2
+        display: none
+
+
+	    
+            
+
+        
+
+            
+
+            
+
+
+
+        
